@@ -12,6 +12,5 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io
 
 # Add user to docker group
 sudo usermod -aG docker $USER
-newgrp docker
 
 echo "Docker installed. Log out and back in or run 'newgrp docker'."
